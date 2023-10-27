@@ -49,7 +49,6 @@ func main() {
 		kva := mapf(filename, string(content))
 		intermediate = append(intermediate, kva...)
 	}
-
 	//
 	// a big difference from real MapReduce is that all the
 	// intermediate data is in one place, intermediate[],
